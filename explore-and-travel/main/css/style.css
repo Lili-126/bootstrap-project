@@ -110,13 +110,16 @@ body {
     max-width: 1200px;
 }
 
+.wrapper-explore {
+    padding-left: 102px;
+}
+
 .element-four {
     top: -40px;
 }
 
 .heading-explore {
     padding-top: 104px;
-    padding-left: 102px;
     padding-bottom: 20px;
     font-family: Playfair Display;
     font-size: 2.1rem;
@@ -126,8 +129,12 @@ body {
 .text-explore {
     color: var(--color4);
     font-family: Muli;
-    padding-left: 102px;
-    font-size: 1.1rem;
+    font-size: 1.25rem;
+}
+
+.element-five {
+    right: 125px;
+    bottom: 70px;
 }
 
 
@@ -153,15 +160,15 @@ body {
         margin-top: 160px;
     }
 
+    .wrapper-explore {
+        padding-left: 0px;
+    }
+
     .heading-explore {
         padding-top: 0px;
-        padding-left: 0px;
         font-size: 1.6rem;
     }
 
-    .text-explore {
-        padding-left: 0px;
-    }
 }
 
 @media screen and (max-width: 576px) {
@@ -197,20 +204,18 @@ body {
         padding-left: 30px;
     }
 
+    .wrapper-explore {
+        padding-left: 0px;
+    }
+
     .explore {
         margin-top: 80px;
     }
 
     .heading-explore {
         padding-top: 0px;
-        padding-left: 0px;
         padding-bottom: 10px;
         text-align: center;
         font-size: 1.2rem;
     }
-
-    .text-explore {
-        padding-left: 10px;
-    }
-
 }

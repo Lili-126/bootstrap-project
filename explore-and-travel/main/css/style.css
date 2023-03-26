@@ -102,6 +102,41 @@ body {
     background-color: var(--color1);
 }
 
+.explore {
+    margin-top: 286px;
+}
+
+.container-all {
+    max-width: 1200px;
+}
+
+.element-four {
+    top: -40px;
+}
+
+.heading-explore {
+    padding-top: 104px;
+    padding-left: 102px;
+    padding-bottom: 20px;
+    font-family: Playfair Display;
+    font-size: 2.1rem;
+    color: var(--color1);
+}
+
+.text-explore {
+    color: var(--color4);
+    font-family: Muli;
+    padding-left: 102px;
+    font-size: 1.1rem;
+}
+
+
+
+
+
+
+
+
 @media screen and (min-width: 577px) and (max-width: 992px) {
 
         .container-header {
@@ -114,10 +149,19 @@ body {
             margin-top: 5px;
     }
 
-    /* .heading-header {
-        max-width: 870px;
-        text-align: center;
-    } */
+    .explore {
+        margin-top: 160px;
+    }
+
+    .heading-explore {
+        padding-top: 0px;
+        padding-left: 0px;
+        font-size: 1.6rem;
+    }
+
+    .text-explore {
+        padding-left: 0px;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -131,17 +175,14 @@ body {
     }
 
     .heading-header {
-        font-size: 28px;
+        font-size: 1.7rem;
         margin-top: 30px;
-    }
-
-    .heading-header {
         max-width: 570px;
         text-align: center;
     }
 
     .text-header {
-        font-size: 12px;
+        font-size: 0.7rem;
     }
 
     .forms-info {
@@ -150,6 +191,26 @@ body {
 
     .wrapper-btn {
         margin-top: 25px;
+    }
+
+    .container-all {
+        padding-left: 30px;
+    }
+
+    .explore {
+        margin-top: 80px;
+    }
+
+    .heading-explore {
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-bottom: 10px;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .text-explore {
+        padding-left: 10px;
     }
 
 }

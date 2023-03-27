@@ -1,5 +1,5 @@
 # bootstrap-project
 
-https://lili-126.github.io/bootstrap-project/tree/gh-pages/explore-and-travel/main/html
+https://lili-126.github.io/bootstrap-project/gh-pages/explore-and-travel/main/html
 
 

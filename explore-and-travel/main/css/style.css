@@ -176,11 +176,41 @@ body {
     background-color: var(--color3);
 }
 
+.element-seven {
+    top: 350px;
+    right: 75px;
+}
+
 .view-all {
     width: 100%;
     max-height: 322px;
 }
 
+.download {
+    margin-top: 292px;
+}
+
+.wrapper-explore_download {
+    padding-left: 0;
+    margin-top: 213px;
+}
+
+.element-eight {
+    left: 50%;
+}
+
+.heading-download {
+    width: 420px;
+}
+
+.element-nine {
+    right: 20px;
+    bottom: 20px;
+}
+
+.img-download {
+    padding-top: 150px;
+}
 
 
 
@@ -211,7 +241,6 @@ body {
     .heading-explore {
         padding-top: 0px;
         font-size: 1.6rem;
-        padding-left: 50px;
     }
 
     .destinations {
@@ -221,6 +250,15 @@ body {
     .img-destinations {
         margin-top: 20px;
         min-width: 275px;
+    }
+
+    .download {
+        margin-top: 80px;
+    }
+
+    .heading-download {
+        width: 350px;
+        padding-left: 20px;
     }
 
 }
@@ -266,6 +304,10 @@ body {
         margin-top: 80px;
     }
 
+    .text-explore {
+        padding: 10px;
+    }
+
     .heading-explore {
         padding-top: 0px;
         padding-bottom: 10px;
@@ -293,5 +335,13 @@ body {
 
     .container-all {
         padding-left: 20px;
+    }
+
+    .download {
+        margin-top: -70px;
+    }
+
+    .heading-download {
+        width: 360px;
     }
 }

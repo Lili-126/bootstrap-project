@@ -9,13 +9,19 @@
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     max-width: 1600px;
+   /*  overflow-x: hidden; */
 }
 
 .container-header {
     max-width: 1415px;
     padding-left: 109px;
+    padding-right: 76px;
  }
 
 .navbar {
@@ -137,6 +143,44 @@ body {
     bottom: 70px;
 }
 
+.destinations {
+    margin-top: 262px;
+}
+
+.element-six {
+    width: 60px;
+    top: 50px;
+    margin-left: 85%;
+}
+
+.vector {
+    width: 5px;
+    height: 10px;
+    margin-left: 5px;
+}
+
+.text-vector {
+    color: var(--color2);
+    font-family: Inter;
+    font-size: 1rem;
+}
+
+.img-destinations {
+    max-width: 254px;
+}
+
+.text-destinations {
+    width: 120px;
+    border-radius: 5px;
+    top: 85%;
+    background-color: var(--color3);
+}
+
+.view-all {
+    width: 100%;
+    max-height: 322px;
+}
+
 
 
 
@@ -167,6 +211,16 @@ body {
     .heading-explore {
         padding-top: 0px;
         font-size: 1.6rem;
+        padding-left: 50px;
+    }
+
+    .destinations {
+        margin-top: 200px;
+    }
+
+    .img-destinations {
+        margin-top: 20px;
+        min-width: 275px;
     }
 
 }
@@ -217,5 +271,27 @@ body {
         padding-bottom: 10px;
         text-align: center;
         font-size: 1.2rem;
+    }
+
+    .destinations {
+        margin-top: 100px;
+    }
+
+    .img-destinations {
+        max-width: 160px;
+        margin-top: 20px;
+    }
+
+    .container-all {
+        padding-left: 10px;
+    }
+
+    .text-destinations {
+        width: 92px;
+        top: 68%;
+    }
+
+    .container-all {
+        padding-left: 20px;
     }
 }

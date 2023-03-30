@@ -187,7 +187,7 @@ body {
 }
 
 .download {
-    margin-top: 292px;
+    margin-top: 231px;
 }
 
 .wrapper-explore_download {
@@ -210,6 +210,37 @@ body {
 
 .img-download {
     padding-top: 150px;
+}
+
+.text-testimonials {
+    width: 360px;
+    color: var(--color1);
+}
+
+.element-ten {
+    top: 72%;
+    left: -20%;
+}
+
+.img-testimonials {
+    width: 300px;
+    margin-top: 32%;
+    margin-left: 10%;
+}
+
+.element-eleven {
+    top: -4%;
+    left: 88%;
+    z-index: -1;
+}
+
+.element-twelf {
+    bottom: -2.2%;
+    left: -2.1%;
+}
+
+.item-carousel {
+    width: 1200px;
 }
 
 

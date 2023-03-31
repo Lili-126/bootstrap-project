@@ -243,6 +243,50 @@ body {
     width: 1200px;
 }
 
+.stories {
+    margin-top: 114px;
+}
+
+.element-thirteen {
+    left: 40%;
+}
+
+.img-storis {
+    height: 289px;
+}
+
+.text-destinations_storis {
+    width: 255px;
+}
+
+.heading-storis{
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 700;
+    color: var(--color1);
+}
+
+.text-storis {
+    margin-top: 13px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    color:var(--color4);
+}
+
+.text-storis_orange {
+    color: var(--color2);
+}
+
+.container-storis_hidden {
+    margin-top: 150px;
+}
+
+.element-fourteen {
+    bottom: -175px;
+    left: 65%;
+}
+
 
 
 
@@ -290,6 +334,18 @@ body {
     .heading-download {
         width: 350px;
         padding-left: 20px;
+    }
+
+    .text-destinations_storis {
+        width: 280px;
+    }
+
+    .heading-storis {
+        font-size: 16px;
+    }
+
+    .text-storis {
+        font-size: 12px;
     }
 
 }
@@ -374,5 +430,13 @@ body {
 
     .heading-download {
         width: 360px;
+    }
+
+    .img-download {
+        padding-top: 0px;
+    }
+
+    .wrapper-explore_download {
+        margin-top: 120px;
     }
 }

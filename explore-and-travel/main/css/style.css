@@ -112,12 +112,9 @@ body {
     background-color: var(--color1);
 }
 
-.explore {
-    margin-top: 286px;
-}
-
 .container-all {
     max-width: 1200px;
+    padding-top: 270px;
 }
 
 .wrapper-explore {
@@ -145,10 +142,6 @@ body {
 .element-five {
     right: 125px;
     bottom: 70px;
-}
-
-.destinations {
-    margin-top: 262px;
 }
 
 .element-six {
@@ -190,13 +183,8 @@ body {
     max-height: 322px;
 }
 
-.download {
-    margin-top: 231px;
-}
-
 .wrapper-explore_download {
     padding-left: 0;
-    margin-top: 213px;
 }
 
 .element-eight {
@@ -212,10 +200,6 @@ body {
     bottom: 20px;
 }
 
-.img-download {
-    padding-top: 150px;
-}
-
 .text-testimonials {
     width: 360px;
     color: var(--color1);
@@ -228,7 +212,6 @@ body {
 
 .img-testimonials {
     width: 300px;
-    margin-top: 32%;
     margin-left: 10%;
 }
 
@@ -245,10 +228,6 @@ body {
 
 .item-carousel {
     width: 1200px;
-}
-
-.stories {
-    margin-top: 114px;
 }
 
 .element-thirteen {
@@ -343,8 +322,8 @@ body {
             margin-top: 5px;
     }
 
-    .explore {
-        margin-top: 160px;
+    .container-all {
+        padding: 200px 50px 0;
     }
 
     .wrapper-explore {
@@ -356,22 +335,18 @@ body {
         font-size: 1.6rem;
     }
 
-    .destinations {
-        margin-top: 200px;
-    }
-
     .img-destinations {
         margin-top: 20px;
         min-width: 275px;
     }
 
-    .download {
-        margin-top: 80px;
-    }
-
     .heading-download {
         width: 350px;
         padding-left: 20px;
+    }
+
+    .img-testimonials {
+        margin-left: 40px;
     }
 
     .text-destinations_storis {
@@ -384,6 +359,14 @@ body {
 
     .text-storis {
         font-size: 12px;
+    }
+
+    .wrapper-footer {
+        margin-top: 260px;
+    }
+
+    .container-all_footer {
+        padding-top: 78px;
     }
 
 }
@@ -476,5 +459,29 @@ body {
 
     .wrapper-explore_download {
         margin-top: 120px;
+    }
+
+    .wrapper-footer {
+        margin-top: 0px;
+    }
+
+    .footer-logo {
+        justify-content: center;
+    }
+
+    .container-all_footer {
+        padding-top: 30px;
+    }
+
+    .text-footer {
+        margin-top: 30px;
+    }
+
+    .icons {
+        margin-top: 20px;
+    }
+
+    .icon-footer {
+        padding-left: 15px;
     }
 }

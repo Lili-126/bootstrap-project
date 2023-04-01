@@ -5,10 +5,6 @@
     --color4:  #7d7987;
 }
 
-* {
-    margin: 0;
-}
-
 a {
     text-decoration: none;
 }
@@ -200,6 +196,10 @@ body {
     bottom: 20px;
 }
 
+.heading-testimonials {
+    padding-top: 0;
+}
+
 .text-testimonials {
     width: 360px;
     color: var(--color1);
@@ -213,6 +213,7 @@ body {
 .img-testimonials {
     width: 300px;
     margin-left: 10%;
+    margin-top: 6%;
 }
 
 .element-eleven {

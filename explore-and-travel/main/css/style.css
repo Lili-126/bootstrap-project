@@ -304,6 +304,10 @@ body {
     margin-bottom: 33px;
 }
 
+.btn-modal {
+  max-width: 290px;
+}
+
 
 
 
@@ -365,11 +369,6 @@ body {
     .wrapper-footer {
         margin-top: 260px;
     }
-
-    /* .container-all_footer {
-        padding-top: 78px;
-    } */
-
 }
 
 @media screen and (max-width: 576px) {
@@ -402,7 +401,7 @@ body {
     }
 
     .container-all {
-        padding: 110px 20px 0;
+        padding: 150px 20px 0;
     }
 
     .wrapper-explore {
@@ -428,10 +427,6 @@ body {
     .text-destinations {
         width: 92px;
         top: 69%;
-    }
-
-    .download {
-        margin-top: -70px;
     }
 
     .heading-download {

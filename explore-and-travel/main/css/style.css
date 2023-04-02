@@ -38,14 +38,14 @@ body {
     left: 10px;
 }
 
-.item-one,
-.item-two {
+.nav-item-one,
+.nav-item-two {
     font-family: Inter;
     font-size: 16px;
     font-weight: 500;
 }
 
-.item-two {
+.nav-item-two {
     color: #b8becd;
 }
 
@@ -222,7 +222,7 @@ body {
     z-index: -1;
 }
 
-.element-twelf {
+.element-twelve {
     bottom: -2.2%;
     left: -2.1%;
 }
@@ -235,22 +235,22 @@ body {
     left: 40%;
 }
 
-.img-storis {
+.img-stories {
     height: 289px;
 }
 
-.text-destinations_storis {
+.text-destinations_stories {
     width: 255px;
 }
 
-.heading-storis{
+.heading-stories{
     font-family: Inter;
     font-size: 19px;
     font-weight: 700;
     color: var(--color1);
 }
 
-.text-storis {
+.text-stories {
     margin-top: 13px;
     font-family: Inter;
     font-size: 15px;
@@ -258,11 +258,11 @@ body {
     color:var(--color4);
 }
 
-.text-storis_orange {
+.text-stories_orange {
     color: var(--color2);
 }
 
-.container-storis_hidden {
+.container-stories_hidden {
     margin-top: 150px;
 }
 
@@ -354,15 +354,15 @@ body {
         margin-left: 40px;
     }
 
-    .text-destinations_storis {
+    .text-destinations_stories {
         width: 280px;
     }
 
-    .heading-storis {
+    .heading-stories {
         font-size: 16px;
     }
 
-    .text-storis {
+    .text-stories {
         font-size: 12px;
     }
 

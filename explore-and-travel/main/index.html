@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore and Travel</title>
+    <link rel="shortcut icon" href="./images/icons8-bootstrap-48.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Mulish:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+      <div class="container container-header">
+        <div class="row">
+          <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg pt-md-5 pt-sm-4" id="header">
+                  <div class="position-relative col-5">
+                    <a href="#header">
+                      <img class="img-fluid logo-big" src="./images/logo.png" alt="logo">
+                      <img class="img-fluid position-absolute logo-small" src="./images/lolg2.png" alt="logo">
+                    </a>
+                  </div>
+                  <button class="navbar-toggler btn btn-warning btn-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse d-lg-flex justify-content-center" id="navbarNav">
+                      <ul class="navbar-nav justify-content-between">
+                        <li class="nav-item">
+                          <a class="nav-link active nav-item-one" aria-current="page" href="#header">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link nav-item-two" href="#destinations">Destinations</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link nav-item-two" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link nav-item-two" href="#stories">Stories</a>
+                        </li>
+                      </ul>
+                          <button type="button" class="btn btn-outline-warning mx-lg-2 btn-login" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                          <button type="button" class="btn btn-warning mx-lg-2 btn-all" data-bs-toggle="modal" data-bs-target="#registernModal">Register</button>
+                      </div>
+                  </nav>
+              </div>
+            </div>
+            <div class="row mt-lg-5 mt-sm-3 pt-lg-5">
+              <div class="col-sm-6 col-xs-12 position-relative">
+                <div class="position-absolute d-none d-lg-block element-one">
+                  <img class="img-fluid" src="./images/element1.png" width="20" alt="Plus">
+                </div>
+                <h1 class="heading-header display-3 fw-bold mb-lg-5 mx-0">Explore and Travel</h1>
+                <div class="mt-sm-5">
+                  <p class="text-header fw-bold">Holiday finder</p>
+                </div>
+                <div class="position-absolute d-none d-lg-block element-two">
+                  <img class="img-fluid" src="./images/element2.png" width="26" alt="Element">
+                </div>
+                <div class="line"></div>
+                <div class="row mt-md-5 mt-sm-4 forms-info">
+                  <div class="col-5 mb-lg-4 mb-sm-2">
+                    <label class="visually-hidden" for="autoSizingSelect">Location</label>
+                    <select class="form-select" id="autoSizingSelect">
+                      <option selected>Location</option>
+                      <option value="1">Raja Ampat Indonesia</option>
+                      <option value="2">Fanjingshan China</option>
+                      <option value="3">Vevey Switzerland</option>
+                      <option value="3">Skadar Montenegro</option>
+                    </select>
+                  </div>
+                  <div class="col-5 mb-lg-4 mb-sm-2">
+                    <label class="visually-hidden" for="autoSizingSelect">Activity</label>
+                    <select class="form-select" id="autoSizingSelect">
+                      <option selected>Activity</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                  <div class="col-5 mt-2">
+                    <label class="visually-hidden" for="autoSizingSelect">Grade</label>
+                    <select class="form-select" id="autoSizingSelect">
+                      <option selected>Grade</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                      <option value="1">Four</option>
+                      <option value="2">Five</option>
+                      <option value="3">Six</option>
+                      <option value="1">Seven</option>
+                      <option value="2">Eight</option>
+                      <option value="3">Nine</option>
+                      <option value="3">Ten</option>
+                    </select>
+                  </div>
+                  <div class="col-5 mt-2">
+                    <input type="date" class="form-control" id="date" name="date" placeholder="Date" required>
+                  </div>
+                </div>
+                <div class="wrapper-btn mt-md-5 mt-sm-4">
+                  <button type="button" class="btn btn-warning btn-all">Explore</button>
+                </div>
+                <div class="position-absolute d-none d-lg-block element-three">
+                  <img class="img-fluid" src="./images/element2.png" width="20" alt="Element">
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <img class="img-fluid d-none d-sm-block" src="./images/header.png"></img>
+              </div>
+            </div>
+        </div>
+    </header>
+    <main>
+      <section class="explore">
+        <div class="container container-all">
+          <div class="row">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-sm-6">
+                  <img class="img-fluid d-none d-sm-block" src="./images/main.png" alt="explore">
+                </div>
+                <div class="col-sm-6 col-xs-12 position-relative">
+                  <div class="wrapper-explore">
+                    <div class="position-absolute d-none d-lg-block element-four">
+                      <img class="img-fluid" src="./images/element1.png" width="20" alt="Plus">
+                    </div>
+                    <h2 class="fw-bold heading-explore">A new way to explore the world</h2>
+                    <p class="text-explore fw-light">
+                        For decades travellers have reached for Lonely Planet books when looking to plan and execute their perfect trip,
+                        but now, they can also let Lonely Planet Experiences lead the way.
+                    </p>
+                    <div class="position-absolute d-none d-lg-block element-five">
+                      <img class="img-fluid" src="./images/element2.png" width="20" alt="Element">
+                    </div>
+                    <div class="wrapper-btn mt-md-5 mt-sm-4">
+                      <button type="button" class="btn btn-warning btn-all">Explore</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="destinations" id="destinations">
+        <div class="container container-all">
+          <div class="row col-12 position-relative">
+            <div class="position-absolute d-none d-lg-block element-six">
+              <img class="img-fluid" src="./images/element2.png" width="20" alt="Element">
+            </div>
+            <div class="d-flex align-items-baseline justify-content-between">
+              <h2 class="heading-explore fw-bold d-block mx-lg-4">Featured destinations</h2>
+              <div class="d-flex align-items-baseline">
+                <p class="fw-bolder">
+                  <a class="text-vector" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="true" aria-controls="collapseExample">View all</a>
+                </p>
+                <img class="vector" src="./images/vector.png" alt="vector">
+              </div>
+            </div>
+            <div class="position-absolute d-none d-lg-block element-seven">
+              <img class="img-fluid" src="./images/element1.png" width="20" alt="Plus">
+            </div>
+          </div>
+          <div class="row">
+            <div class="d-flex justify-content-evenly flex-wrap-reverse">
+              <div class="img-destinations position-relative col-lg-3 col-md-6 col-sm-6">
+                <img class="img-fluid border rounded" src="./images/image 4.png" alt="Indonesia">
+                <div class="text-destinations position-absolute">
+                  <p><strong>Raja Ampat</strong><br>Indonesia</p>
+                </div>
+              </div>
+              <div class="img-destinations position-relative col-lg-3 col-md-6 col-sm-6">
+                <img class="img-fluid border rounded" src="./images/image3.png" alt="China">
+                <div class="text-destinations position-absolute">
+                  <p><strong>Raja Ampat</strong><br>Indonesia</p>
+                </div>
+              </div>
+              <div class="img-destinations position-relative col-lg-3 col-md-6 col-sm-6">
+                <img class="img-fluid border rounded" src="./images/image2.png" alt="Switzerland">
+                <div class="text-destinations position-absolute">
+                  <p><strong>Vevey</strong><br>Switzerland</p>
+                </div>
+              </div>
+              <div class="img-destinations position-relative col-lg-3 col-md-6 col-sm-6">
+                <img class="img-fluid border rounded-3" src="./images/image1.png" alt="Switzerland">
+                <div class="text-destinations position-absolute">
+                 <p><strong>Skadar</strong><br>Montenegro</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="collapse" id="collapseExample">
+            <div class="d-flex justify-content-evenly flex-wrap-reverse pt-4">
+              <div class="img-destinations position-relative col-lg-3 col-md-6 col-sm-6">
+                <img class="img-fluid border rounded view-all" src="./images/image5.png" alt="Indonesia">
+                <div class="text-destinations position-absolute">
+                  <p><strong>Raja Ampat</strong><br>Indonesia</p>
+                </div>
+              </div>
+              <div class="img-destinations position-relative col-lg-3 col-md-6 col-sm-6">
+                <img class="img-fluid border rounded view-all" src="./images/image8.png" alt="China">
+                <div class="text-destinations position-absolute">
+                  <p><strong>Raja Ampat</strong><br>Indonesia</p>
+                </div>
+              </div>
+              <div class="img-destinations position-relative col-lg-3 col-md-6 col-sm-6">
+                <img class="img-fluid border rounded view-all" src="./images/image6.png" alt="Switzerland">
+                <div class="text-destinations position-absolute">
+                  <p><strong>Vevey</strong><br>Switzerland</p>
+                </div>
+              </div>
+              <div class="img-destinations position-relative col-lg-3 col-md-6 col-sm-6">
+                <img class="img-fluid border rounded-3" src="./images/image7.png" alt="Switzerland">
+                <div class="text-destinations position-absolute">
+                 <p><strong>Skadar</strong><br>Montenegro</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="download">
+        <div class="container container-all">
+          <div class="row">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-sm-6 col-xs-12 position-relative">
+                  <div class="wrapper-explore wrapper-explore_download">
+                    <div class="position-absolute d-none d-lg-block element-eight">
+                      <img class="img-fluid" src="./images/element2.png" width="20" alt="Plus">
+                    </div>
+                    <div class="heading-download">
+                      <h2 class="fw-bold heading-explore text-sm-start">Guides by Thousand Sunny</h2>
+                      <p class="text-explore fw-light">
+                        Packed with tips and advice from our on-the-ground experts, our city guides app (iOS and Android)
+                        is the ultimate resource before and during a trip.
+                      </p>
+                    </div>
+                    <div class="position-absolute d-none d-lg-block element-nine">
+                      <img class="img-fluid" src="./images/element1.png" width="20" alt="Element">
+                    </div>
+                    <div class="wrapper-btn mt-md-5 mt-sm-4">
+                      <button type="button" class="btn btn-warning btn-all">Download</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="img-download col-sm-6">
+                  <img class="img-fluid d-none d-sm-block" src="./images/Thousand.png" alt="explore">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="testimonials">
+        <div class="container container-all">
+          <div class="row">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-sm-6 col-xs-12 position-relative">
+                  <div class="wrapper-explore">
+                    <div class="position-absolute d-none d-lg-block element-ten">
+                      <img class="img-fluid" src="./images/element2.png" width="20" alt="Plus">
+                    </div>
+                    <div class="heading-download">
+                      <h2 class="fw-bold heading-explore heading-testimonials text-sm-start">Testimonials</h2>
+                      <div class="container-star d-flex mb-4 mt-5">
+                        <img class="img-fluid mx-2" src="./images/star.png" alt="Star" width="25" >
+                        <img class="img-fluid mx-2" src="./images/star.png" alt="Star" width="25" >
+                        <img class="img-fluid mx-2" src="./images/star.png" alt="Star" width="25" >
+                        <img class="img-fluid mx-2" src="./images/star.png" alt="Star" width="25" >
+                        <img class="img-fluid mx-2" src="./images/star.png" alt="Star" width="25" >
+                      </div>
+                      <p class="text-explore text-testimonials fw-light">
+                        “Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu,
+                        facilisis quis purus. Morbi blandit sit amet turpis nec”
+                      </p>
+                    </div>
+                    <div class="wrapper-btn mt-md-5 mt-sm-4">
+                      <h5><strong>Edward Newgate</strong></h5>
+                      <p>Founder Circle</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="img-testimonials col-sm-6 position-relative">
+                  <div class="position-absolute d-none d-lg-block element-eleven">
+                    <img class="img-fluid" src="./images/element2.png" width="42" alt="Plus">
+                  </div>
+                  <img class="img-fluid d-none d-sm-block rounded-3" src="./images/Testimonials.png" alt="explore">
+                  <div></div>
+                  <div class="position-absolute d-none d-lg-block element-twelve">
+                    <img class="img-fluid" src="./images/element1.png" width="31" alt="Element">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="stories d-none d-sm-block" id="stories">
+        <div class="container container-all">
+          <div class="row col-12 position-relative">
+            <div class="position-absolute d-none d-lg-block element-thirteen">
+              <img class="img-fluid" src="./images/element1.png" width="20" alt="Element">
+            </div>
+            <div class="d-flex align-items-baseline justify-content-between">
+              <h2 class="heading-explore fw-bold d-block mx-lg-4">Trending stories</h2>
+              <div class="d-flex align-items-baseline">
+                <p class="fw-bolder">
+                  <a class="text-vector" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="true" aria-controls="collapseExample">View all</a>
+                </p>
+                <img class="vector" src="./images/vector.png" alt="vector">
+              </div>
+            </div>
+            <div class="position-absolute d-none d-lg-block element-seven">
+              <img class="img-fluid" src="./images/element2.png" width="20" alt="Plus">
+            </div>
+          </div>
+          <div class="row position-relative">
+            <div class="d-flex justify-content-evenly flex-wrap-reverse">
+              <div class="img-destinations position-relative col-lg-3 col-md-6 col-sm-6">
+                <img class="img-fluid border rounded" src="./images/stories1.png" alt="Indonesia">
+                <div class="text-destinations text-destinations_stories  position-absolute">
+                  <p class="h5 heading-stories">The many benefits of taking a healing holiday</p>
+                  <p class="text-stories">‘Helaing holidays’ are on the rise
+                    tohelp maximise your health and happines...
+                  </p>
+                  <p class="text-stories text-stories_orange">Read more</p>
+                </div>
+              </div>
+              <div class="img-destinations position-relative col-lg-3 col-md-6 col-sm-6">
+                <img class="img-fluid border rounded" src="./images/stories2.png" alt="China">
+                <div class="text-destinations text-destinations_stories position-absolute">
+                  <p class="h5 heading-stories">The best Kyoto restaurant to try Japanese food</p>
+                  <p class="text-stories">From tofu to teahouses, here’s our guide to Kyoto’s best restaurants to visit...</p>
+                  <p class="text-stories text-stories_orange">Read more</p>
+                </div>
+              </div>
+              <div class="img-destinations position-relative col-lg-3 col-md-6 col-sm-6">
+                <img class="img-fluid border rounded img-stories" src="./images/stories3.png" alt="Switzerland">
+                <div class="text-destinations text-destinations_stories position-absolute">
+                  <p class="h5 heading-stories">Skip Chichen Itza and head to this remote Yucatan</p>
+                  <p class="text-stories">Skip Chichen Itza and head to this remote Yucatan</p>
+                  <p class="text-stories text-stories_orange">Read more</p>
+                </div>
+              </div>
+              <div class="img-destinations position-relative col-lg-3 col-md-6 col-sm-6">
+                <img class="img-fluid border rounded-3 img-stories" src="./images/stories4.png" alt="Switzerland">
+                <div class="text-destinations text-destinations_stories position-absolute">
+                  <p class="h5 heading-stories">Surf’s up at these beginner spots around the world</p>
+                  <p class="text-stories">If learning to surf has in on your to-
+                    do list for a while, the good news
+                    is: it’s never too late...
+                  </p>
+                  <p class="text-stories text-stories_orange">Read more</p>
+                </div>
+              </div>
+            </div>
+            <div class="collapse" id="collapseExample">
+              <div class="d-flex justify-content-evenly flex-wrap-reverse container-stories_hidden">
+                <div class="img-destinations position-relative col-lg-3 col-md-6 col-sm-6">
+                  <img class="img-fluid border rounded img-stories" src="./images/stories3.png" alt="Switzerland">
+                  <div class="text-destinations text-destinations_stories position-absolute">
+                    <p class="h5 heading-stories">Skip Chichen Itza and head to this remote Yucatan</p>
+                    <p class="text-stories">Skip Chichen Itza and head to this remote Yucatan</p>
+                    <p class="text-stories text-stories_orange">Read more</p>
+                  </div>
+                </div>
+                <div class="img-destinations position-relative col-lg-3 col-md-6 col-sm-6">
+                  <img class="img-fluid border rounded-3 img-stories" src="./images/stories4.png" alt="Switzerland">
+                  <div class="text-destinations text-destinations_stories position-absolute">
+                    <p class="h5 heading-stories">Surf’s up at these beginner spots around the world</p>
+                    <p class="text-stories">If learning to surf has in on your to-
+                      do list for a while, the good news
+                      is: it’s never too late...
+                    </p>
+                    <p class="text-stories text-stories_orange">Read more</p>
+                  </div>
+                </div>
+                <div class="img-destinations position-relative col-lg-3 col-md-6 col-sm-6">
+                  <img class="img-fluid border rounded" src="./images/stories2.png" alt="China">
+                  <div class="text-destinations text-destinations_stories position-absolute">
+                    <p class="h5 heading-stories">The best Kyoto restaurant to try Japanese food</p>
+                    <p class="text-stories">From tofu to teahouses, here’s our guide to Kyoto’s best restaurants to visit...</p>
+                    <p class="text-stories text-stories_orange">Read more</p>
+                  </div>
+                </div>
+                <div class="img-destinations position-relative col-lg-3 col-md-6 col-sm-6">
+                  <img class="img-fluid border rounded" src="./images/stories1.png" alt="Indonesia">
+                  <div class="text-destinations text-destinations_stories  position-absolute">
+                    <p class="h5 heading-stories">The many benefits of taking a healing holiday</p>
+                    <p class="text-stories">‘Helaing holidays’ are on the rise
+                      tohelp maximise your health and happines...
+                    </p>
+                    <p class="text-stories text-stories_orange">Read more</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="position-absolute d-none d-lg-block element-fourteen">
+              <img class="img-fluid" src="./images/element2.png" width="20" alt="Element">
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="wrapper-footer">
+        <div class="container container-all container-all_footer">
+          <div class="row d-none d-sm-block">
+            <div class="footer-logo d-flex justify-content-sm-between">
+              <div class=" col-md-4">
+                <div class="position-relative">
+                  <a href="#header">
+                    <img class="img-fluid logo-big" src="./images/logo.png" alt="logo">
+                    <img class="img-fluid position-absolute logo-small" src="./images/lolg2.png" alt="logo">
+                  </a>
+                </div>
+                <div class="d-none d-sm-block">
+                  <p class="text-footer mt-md-4 mb-md-5 col-8">
+                    Plan and book your perfect trip with
+                    expert advice, travel tips destination
+                    information from us
+                  </p>
+                </div>
+                <div>
+                  <p class="text-footer">©2023 Thousand Sunny. All rights reserved</p>
+                </div>
+              </div>
+              <div class="list d-none d-md-block">
+                <h5 class="list__heading-footer">Destinations</h5>
+                <ul>
+                  <li><a class="text-footer" href="#">Africa</a></li>
+                  <li><a class="text-footer" href="#">Antarctica</a></li>
+                  <li><a class="text-footer" href="#">Asia</a></li>
+                  <li><a class="text-footer" href="#">Europe</a></li>
+                  <li><a class="text-footer" href="#">America</a></li>
+                </ul>
+              </div>
+              <div class="list d-none d-md-block">
+                <h5 class="list__heading-footer">Shop</h5>
+                <ul>
+                  <li><a class="text-footer" href="#">Destination Guides</a></li>
+                  <li><a class="text-footer" href="#">Pictorial & Gifts</a></li>
+                  <li><a class="text-footer" href="#">Special Offers</a></li>
+                  <li><a class="text-footer" href="#">Delivery Times</a></li>
+                  <li><a class="text-footer" href="#">FAQs</a></li>
+                </ul>
+              </div>
+              <div class="list d-none d-md-block">
+                <h5 class="list__heading-footer">Interests</h5>
+                <ul>
+                  <li><a class="text-footer" href="#">Adventure Travel</a></li>
+                  <li><a class="text-footer" href="#">Art And Culture</a></li>
+                  <li><a class="text-footer" href="#">Wildlife And Nature</a></li>
+                  <li><a class="text-footer" href="#">Family Holidays</a></li>
+                  <li><a class="text-footer" href="#">Food And Drink</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="icons d-flex align-items-center justify-content-center pt-4" id="about">
+              <div><a href="https://twitter.com/" target="_blank">
+                  <img class="icon-footer img-fluid px-sm-4" src="./images/twiter.png" alt="twiter">
+                  </a>
+              </div>
+              <div><a href="https://www.facebook.com/" target="_blank">
+                   <img class="icon-footer img-fluid px-sm-4" src="./images/facebok.png" alt="facebok">
+                  </a>
+              </div>
+              <div><a href="https://www.instagram.com/" target="_blank">
+                   <img class="icon-footer img-fluid px-sm-4" src="./images/instagram.png" alt="instagram">
+                  </a>
+              </div>
+              <div><a href="https://ge.linkedin.com/" target="_blank">
+                   <img class="icon-footer img-fluid px-sm-4" src="./images/linkedin.png" alt="linkedin">
+                  </a>
+              </div>
+              <div><a href="https://www.youtube.com/" target="_blank">
+                   <img class="icon-footer img-fluid px-sm-4" src="./images/ytube .png" alt="ytube">
+                  </a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title text-center" id="exampleModalLabel"><strong>Sign in</strong></h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <label for="exampleFormControlInput1" class="form-label">Login</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="login">
+            <label for="exampleFormControlInput1" class="form-label">Password</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="password">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-modal btn-warning mx-lg-2 btn-all" data-bs-dismiss="modal">To come in</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="registernModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title text-center" id="exampleModalLabel"><strong>Register</strong></h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <label for="exampleFormControlInput1" class="form-label">Password</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="password">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-modal btn-warning mx-lg-2 btn-all" data-bs-dismiss="modal">Register</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

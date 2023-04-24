@@ -56,7 +56,7 @@ body {
 
 .work {
     padding: 150px 0 135px 0;
-    background: url(../assets/bg/header_bg.png);
+    background: url(../assets/bg/header_bg.png) center center/cover no-repeat;
     height: 800px;
 }
 
@@ -105,6 +105,27 @@ body {
         font-size: 0.75em;
     }
 
+    .work {
+        padding: 80px 0 0px 0;
+        height: 560px;
+    }
+
+    .work__heading {
+        font-size: 3rem;
+    }
+
+    .work__subheading {
+        font-size: 1.9rem;
+    }
+
+    .work__text {
+        font-size: 1rem;
+    }
+
+    .work__button {
+        margin: 80px auto 0;
+    }
+
 
 }
 
@@ -131,6 +152,29 @@ body {
         height: 22px;
         width: 110px;
         font-size: 0.63em;
+    }
+
+    .work {
+        padding: 60px 0 0 0;
+        height: 395px;
+    }
+
+    .work__heading {
+        font-size: 2.1rem;
+    }
+
+    .work__subheading {
+        display: block;
+        font-size: 1.4rem;
+        margin: 30px auto 0;
+        width: 305px;
+    }
+
+    .work__button {
+        width: 210px;
+        height: 50px;
+        margin: 80px auto 0;
+        font-size: 1rem;
     }
 
 

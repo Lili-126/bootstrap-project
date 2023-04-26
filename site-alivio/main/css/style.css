@@ -1,4 +1,5 @@
 body {
+    box-sizing: border-box;
     width: 100vw;
     font-family: 'Lato', sans-serif;
     font-size: 1.25rem;
@@ -6,7 +7,7 @@ body {
 }
 
 .container {
-    width: 1370px;
+   /*  max-width: 1370px; */
     padding: 0;
 }
 
@@ -64,3 +65,140 @@ body {
     width: 227px;
     height: 65px;
 }
+
+@media (max-width: 992px) {
+    body {
+        font-size: 1.1rem;
+    }
+
+    .container {
+        width: 720px;
+    }
+
+    .wrapper__nav {
+        padding: 10px 0;
+    }
+
+    .wrapper__nav-link {
+        width: 390px;
+    }
+
+    .btn__header {
+        width: 90px;
+        height: 40px;
+        margin-left: 0px;
+    }
+
+    .subsection {
+        height: 550px;
+        padding-top: 100px;
+        padding-bottom: 70px;
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 769px) {
+    .container {
+        width: 680px;
+    }
+
+    .subsection {
+        height: 420px;
+        padding-top: 80px;
+        padding-bottom: 0px;
+        font-size: 1rem;
+    }
+
+    .wrapper__nav {
+        height: 60px;
+        padding: 0;
+    }
+
+    .subsection__heading {
+        display: block;
+        max-width: 340px;
+        margin-bottom: 15px;
+        font-size: 2.5rem;
+     }
+
+     .subsection__text {
+        display: block;
+        max-width: 341px;
+        margin-bottom: 35px;
+    }
+
+    .button_all {
+        width: 170px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 575px) {
+    body {
+        font-size: 0.8rem;
+    }
+
+    .container {
+        width: 300px;
+    }
+
+    .wrapper__nav {
+        height: 50px;
+    }
+
+    .logo {
+        max-width: 50px;
+        margin-left: 15px;
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+        };
+
+    .navbar-toggler-icon {
+        width: 30px;
+        margin-right: 10px;
+    }
+
+    .wrapper__navbar {
+        margin-left: 80px;
+    }
+
+    .wrapper__nav-link {
+        padding-left: 41px;
+        padding-top: 20px;
+    }
+
+    .subsection {
+        height: 280px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-size: 0.8rem;
+    }
+
+    .subsection__heading {
+        display: none;
+    }
+
+    .subsection__text {
+        display: none;
+    }
+
+    .button_all {
+        width: 115px;
+        height: 40px;
+        font-size: 0.8rem;
+        margin-top: 210px;
+    }
+
+    .btn__header {
+        width: 80px;
+        height: 30px;
+        margin-left: 0px;
+        font-size: 0.8rem;
+    }
+
+}
+

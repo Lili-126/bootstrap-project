@@ -100,12 +100,20 @@ body {
     font-size: 1.25rem;
 }
 
-.wrapper-step {
+.wrapper-step_one {
     margin-top: 52px;
 }
 
+.wrapper-step_two {
+    margin-top: 339px;
+}
+
+.wrapper-step_three {
+    margin-top: 106px;
+}
+
 .check-step {
-    width: 269px;
+    width: 480px;
     height: 225px;
 }
 
@@ -120,7 +128,25 @@ body {
     line-height: 45px;
     color: #000;
     bottom: 18%;
-    left: 52%;
+    left: 16%;
+}
+
+.title-alivio {
+    bottom: 27%;
+    left: 23%;
+}
+
+.check-step__text {
+    width: 382px;
+    color: #424242;
+
+}
+
+.container__images {
+    width: 390px;
+    height: 492px;
+    margin-top: 60px;
+    border-radius: 15px;
 }
 
 

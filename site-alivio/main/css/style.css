@@ -1,7 +1,7 @@
 body {
     box-sizing: border-box;
     width: 100vw;
-    font-family: 'Lato', sans-serif;
+    font-family: Lato, sans-serif;
     font-size: 1.25rem;
     font-weight: 400;
 }
@@ -66,6 +66,10 @@ body {
     height: 65px;
 }
 
+.container-steps {
+    width: 1413px;
+}
+
 .steps {
     height: 1606px;
 }
@@ -83,18 +87,40 @@ body {
     width: 608px;
     padding-top: 10px;
     font-family: Georgia;
-    font-size: 3.1rem;
+    font-size: 3.15rem;
     color: #01996D;
 }
 
 .steps__text {
-    display: block;
-    width: 565px;
-    margin-left: 136px;
+    width: 676px;
+    margin-left: 105px;
     font-weight: 500;
     line-height: 30px;
     color: #424242;
-    font-size: 1.45rem;
+    font-size: 1.25rem;
+}
+
+.wrapper-step {
+    margin-top: 52px;
+}
+
+.check-step {
+    width: 269px;
+    height: 225px;
+}
+
+.check-step__img {
+    width: 157px;
+    height: 50%;
+}
+
+.check-step__title {
+    font-family: Georgia;
+    font-size: 1.9rem;
+    line-height: 45px;
+    color: #000;
+    bottom: 18%;
+    left: 52%;
 }
 
 

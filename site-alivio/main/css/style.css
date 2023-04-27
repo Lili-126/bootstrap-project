@@ -28,7 +28,7 @@ body {
 }
 
 .wrapper__nav-link {
-    width: 557px;
+    max-width: 557px;
 }
 
 .nav-link {
@@ -73,12 +73,12 @@ body {
 }
 
 .container-steps {
-    width: 1413px;
+    max-width: 1413px;
 }
 
-.steps {
+/* .steps {
     height: 1606px;
-}
+} */
 
 .steps__item {
     width: 170px;
@@ -112,14 +112,16 @@ body {
 
 .wrapper-step_two {
     margin-top: 339px;
+    padding-left: 95px;
 }
 
 .wrapper-step_three {
     margin-top: 106px;
+    padding-left: 95px;
 }
 
 .check-step {
-    width: 480px;
+   max-width: 379px;
     height: 225px;
 }
 

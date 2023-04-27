@@ -1,3 +1,10 @@
+:root {
+    --color1:  #01996D;
+    --color2:  #ffffff;
+    --color48:  #484848;
+    --color42:  #424242;
+}
+
 body {
     box-sizing: border-box;
     width: 100vw;
@@ -7,7 +14,6 @@ body {
 }
 
 .container {
-   /*  max-width: 1370px; */
     padding: 0;
 }
 
@@ -52,13 +58,13 @@ body {
     margin-bottom: 30px;
     font-family: Georgia;
     font-size: 4.06rem;
-    color: #01996D;
+    color: var(--color1);
 }
 
 .subsection__text {
     max-width: 480px;
     margin-bottom: 51px;
-    color: #484848;
+    color: var(--color48);
 }
 
 .button_all {
@@ -79,7 +85,7 @@ body {
     height: 38px;
     margin-top: 169px;
     font-size: 1.5rem;
-    color: #424242;
+    color: var(--color42);
 
 }
 
@@ -88,7 +94,7 @@ body {
     padding-top: 10px;
     font-family: Georgia;
     font-size: 3.15rem;
-    color: #01996D;
+    color: var(--color1);
 }
 
 .steps__text {
@@ -96,7 +102,7 @@ body {
     margin-left: 105px;
     font-weight: 500;
     line-height: 30px;
-    color: #424242;
+    color: var(--color42);
     font-size: 1.25rem;
 }
 
@@ -138,7 +144,7 @@ body {
 
 .check-step__text {
     width: 382px;
-    color: #424242;
+    color: var(--color42);
 
 }
 

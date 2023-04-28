@@ -5,8 +5,16 @@
     --color42:  #424242;
 }
 
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: block;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
 body {
-    box-sizing: border-box;
     width: 100vw;
     font-family: Lato, sans-serif;
     font-size: 1.25rem;
@@ -73,24 +81,19 @@ body {
 }
 
 .container-steps {
-    max-width: 1413px;
+    max-width: 1437px;
 }
 
-/* .steps {
-    height: 1606px;
-} */
-
 .steps__item {
-    width: 170px;
+    max-width: 223px;
     height: 38px;
     margin-top: 169px;
     font-size: 1.5rem;
     color: var(--color42);
-
 }
 
 .heading {
-    width: 608px;
+    max-width: 576px;
     padding-top: 10px;
     font-family: Georgia;
     font-size: 3.15rem;
@@ -98,8 +101,7 @@ body {
 }
 
 .steps__text {
-    width: 676px;
-    margin-left: 105px;
+    max-width: 635px;
     font-weight: 500;
     line-height: 30px;
     color: var(--color42);
@@ -112,12 +114,10 @@ body {
 
 .wrapper-step_two {
     margin-top: 339px;
-    padding-left: 95px;
 }
 
 .wrapper-step_three {
     margin-top: 106px;
-    padding-left: 95px;
 }
 
 .check-step {
@@ -126,8 +126,7 @@ body {
 }
 
 .check-step__img {
-    width: 157px;
-    height: 50%;
+    max-width: 157px;
 }
 
 .check-step__title {
@@ -145,27 +144,15 @@ body {
 }
 
 .check-step__text {
-    width: 382px;
+    max-width: 382px;
     color: var(--color42);
-
 }
 
 .container__images {
-    width: 390px;
-    height: 492px;
+    max-width: 390px;
     margin-top: 60px;
     border-radius: 15px;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -178,15 +165,11 @@ body {
     }
 
     .container {
-        width: 720px;
+        max-width: 650px;
     }
 
     .wrapper__nav {
         padding: 10px 0;
-    }
-
-    .wrapper__nav-link {
-        width: 390px;
     }
 
     .btn__header {
@@ -199,105 +182,75 @@ body {
         height: 550px;
         padding-top: 100px;
         padding-bottom: 70px;
-        font-size: 1.25rem;
     }
 
     .steps__item {
+        max-width: 242px;
+        margin-left: 30px;
         margin-top: 120px;
         font-size: 1.4rem;
     }
+
+    .heading {
+        margin: 0 auto;
+    }
+
+    .wrapper-step_two {
+        padding-left: 38%;
+    }
+
+    .wrapper-step_two,
+    .wrapper-step_three {
+        margin-top: 90px;
+    }
+
+    .check-step__title {
+        bottom: 62px;
+        left: 13px;
+    }
+
+    .title-alivio {
+        bottom: 75px;
+        left: 32px;
+    }
 }
 
 
 
 
 
-@media (max-width: 769px) {
-    .container {
-        width: 680px;
-    }
 
-    .subsection {
-        height: 420px;
-        padding-top: 80px;
-        padding-bottom: 0px;
+
+@media (max-width: 766px) {
+    body {
         font-size: 1rem;
     }
 
+    .container {
+        max-width: 380px;
+    }
+
     .wrapper__nav {
-        height: 60px;
+        height: 45px;
         padding: 0;
     }
 
-    .subsection__heading {
-        display: block;
-        max-width: 340px;
-        margin-bottom: 15px;
-        font-size: 2.5rem;
-     }
-
-     .subsection__text {
-        display: block;
-        max-width: 341px;
-        margin-bottom: 35px;
-    }
-
-    .button_all {
-        width: 170px;
-        height: 45px;
-    }
-
-
-    .heading {
-        width: 480px;
-        font-size: 2.5rem;
-    }
-
-}
-
-@media (max-width: 575px) {
-    body {
-        font-size: 0.8rem;
-    }
-
-    .container {
-        width: 300px;
-    }
-
-    .wrapper__nav {
-        height: 50px;
-    }
-
     .logo {
-        max-width: 50px;
-        margin-left: 15px;
+        max-width: 70px;
     }
 
     .navbar-toggler:focus {
-        text-decoration: none;
-        outline: 0;
-        box-shadow: none;
-        };
-
-    .navbar-toggler-icon {
-        width: 30px;
-        margin-right: 10px;
+         box-shadow: none;
     }
 
-    .wrapper__navbar {
-        margin-left: 80px;
-    }
-
-    .wrapper__nav-link {
-        padding-left: 41px;
-        padding-top: 20px;
+    .navbar-collapse {
+        text-align: end;
     }
 
     .subsection {
         height: 280px;
-        padding-top: 0px;
+        padding-top: 155px;
         padding-bottom: 0px;
-        font-size: 0.8rem;
     }
 
     .subsection__heading {
@@ -309,28 +262,173 @@ body {
     }
 
     .button_all {
-        width: 115px;
-        height: 40px;
+        width: 170px;
+        height: 45px;
+    }
+
+    .steps__item {
+        max-width: 150px;
+        margin-left: 0px;
+        margin-top: 80px;
+        font-size: 1rem;
+    }
+
+    .heading {
+        max-width: 351px;
+        font-size: 1.9rem;
+        text-align: start;
+        margin: 0;
+        padding-top: 0;
+    }
+
+    .check-step {
+        max-width: 180px;
+        height: 120px;
+    }
+
+    .wrapper-step_two {
+        padding-left: 43%;
+    }
+
+    .wrapper-step_two,
+    .wrapper-step_three {
+        margin-top: 70px;
+    }
+
+    .check-step__img {
+        max-width: 100px;
+    }
+
+    .check-step__title {
+        font-size: 1rem;
+        line-height: 0;
+        bottom: 34px;
+        left: 13px;
+    }
+
+    .title-alivio {
+        bottom: 25%;
+        left: 36%;
+    }
+
+    .check-step__text {
         font-size: 0.8rem;
-        margin-top: 210px;
+        max-width: 210px;
+    }
+
+    .container__images {
+        max-width: 210px;
+        margin-top: 30px;
+    }
+
+}
+
+@media (max-width: 535px) {
+    body {
+        font-size: 0.8rem;
+    }
+
+    .container {
+        max-width: 300px;
+    }
+
+    .wrapper__nav {
+        height: 45px;
+    }
+
+    .logo {
+        max-width: 45px;
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+        }
+
+    .navbar-toggler-icon {
+        width: 30px;
+    }
+
+    .wrapper__navbar {
+        margin-left: 80px;
+    }
+
+    .wrapper__nav-link {
+        padding-left: 41px;
+        padding-top: 20px;
     }
 
     .btn__header {
-        width: 80px;
-        height: 30px;
+        width: 85px;
+        height: 35px;
         margin-left: 0px;
         font-size: 0.8rem;
     }
 
+    .subsection {
+        height: 230px;
+        padding-top: 0px;
+        font-size: 0.8rem;
+    }
+
+    .button_all {
+        width: 135px;
+        height: 40px;
+        font-size: 0.8rem;
+        margin-top: 150px;
+    }
+
     .steps__item {
-        margin-top: 70px;
-        font-size: 0.9rem;
+        margin-top: 65px;
+        font-size: 0.7rem;
     }
 
     .heading {
-        width: 300px;
-        font-size: 1.5rem;
-        padding-top: 0;
+        max-width: 265px;
+        font-size: 1.4rem;
+    }
+
+    .wrapper-step_one {
+        margin-top: 25px;
+    }
+
+    .wrapper-step_two {
+        padding-left: 38%;
+    }
+
+    .wrapper-step_three,
+    .wrapper-step_two {
+        margin-top: 60px;
+    }
+
+    .check-step {
+        max-width: 157px;
+        height: 80px;
+    }
+
+    .check-step__img {
+        max-width: 70px;
+    }
+
+    .check-step__title {
+        font-size: 0.7rem;
+        bottom: 26px;
+        left: 20px;
+    }
+
+    .title-alivio {
+        bottom: 30px;
+        left: 20px;
+    }
+
+    .check-step__text {
+        font-size: 0.6rem;
+    }
+
+    .check-step__text,
+    .container__images {
+        max-width: 180px;
     }
 }
 

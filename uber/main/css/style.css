@@ -143,9 +143,54 @@ body {
     color: var(--color2);
 }
 
+.grid-mobile {
+    display: grid;
+    grid-template-columns: 320px 320px 320px;
+    grid-template-rows: 280px 280px;
+    grid-column-gap: 55px;
+    grid-row-gap: 20px;
+    margin-top: 40px;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.wrapper-mobile {
+    max-width: 320px;
+    max-height: 280px;
+    position: relative;
+}
+
+.wrapper-mobile__title {
+    width: 325px;
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 31px;
+    color: var(--color3);
+}
+
+.wrapper-mobile__icon {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #000000;
+    color: var(--color1);
+}
+
+.icon_plus {
+    width: 14px;
+    height: 14px;
+}
 
 
-   
+
 
 
 

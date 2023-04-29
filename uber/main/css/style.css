@@ -145,6 +145,7 @@ body {
 
 
 
+   
 
 
 
@@ -155,7 +156,7 @@ body {
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
     .logo__img {
         width: 200px;
     }
@@ -189,6 +190,24 @@ body {
 
     .work__button {
         margin: 80px auto 0;
+    }
+
+    .elements {
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        grid-template-rows: 290px 290px 290px 290px;
+        padding: 50px 20px 0 20px;
+    }
+
+    .circle__element {
+        width: 80px;
+        height: 80px;
+        margin: 20px auto;
+    }
+
+    .wrapper-circle_text {
+        width: 320px;
+        margin: 0 auto;
     }
 
 
@@ -241,8 +260,9 @@ body {
         margin: 80px auto 0;
         font-size: 1rem;
     }
-
-
+    .elements {
+        display: block;
+    }
 }
 
 

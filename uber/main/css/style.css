@@ -220,6 +220,37 @@ body {
     width: 570px;
 }
 
+.grid-conditions {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 345px 340px;
+    grid-column-gap: 40px;
+    grid-row-gap: 70px;
+    margin-top: 50px;
+}
+
+.conditions-heading {
+    font-size: 1.38rem;
+    color: var(--color1);
+}
+
+.conditions-heading_red {
+    color: var(--color4);
+}
+
+.conditions-text {
+    letter-spacing: 1px;
+    color: var(--color1);
+}
+
+.conditions-text_conditions {
+    width: 480px;
+}
+
+.conditions-text_requirements {
+    width: 490px;
+}
+
 
 
 

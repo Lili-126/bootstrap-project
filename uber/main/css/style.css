@@ -251,10 +251,21 @@ body {
     max-width: 490px;
 }
 
+.world {
+    position: relative;
+    height: 720px;
+    margin-top: 70px;
+    background: url(../assets/bg/world_bg.png) center center/cover no-repeat;
+}
 
-
-
-
+.world__text {
+    position: absolute;
+    font-size: 15px;
+    line-height: 68px;
+    color: var(--color1);
+    left: 44%;
+    bottom: 5%;
+}
 
 
 
@@ -400,6 +411,10 @@ body {
             font-size: 0.89rem;
         }
 
+        .world__text {
+            left: 38%;
+        }
+
 }
 
 
@@ -531,6 +546,25 @@ body {
 
     .grid-conditions {
         display: block;
+    }
+
+    .world {
+        height: 360px;
+    }
+
+    .label {
+        width: 79px;
+        height: 26px;
+        margin-top: 25px;
+    }
+
+    .world__text_white {
+        margin-top: 0;
+        font-size: 0.88rem;
+    }
+
+    .world__text {
+        left: 24%;
     }
 
 }

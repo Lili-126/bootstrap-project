@@ -108,10 +108,9 @@ body {
 .elements {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 150px 150px 150px 150px;
-    grid-column-gap: 50px;
-    grid-row-gap: 50px;
-    padding: 50px 40px 0 40px;
+    grid-template-rows: 180px 180px 190px 180px;
+    grid-row-gap: 20px;
+    padding: 50px 0px 0 0px;
 }
 
 .circle__element {
@@ -127,7 +126,7 @@ body {
 }
 
 .wrapper-circle_text {
-    width: 371px;
+    max-width: 371px;
     margin-left: 25px;
 }
 
@@ -137,7 +136,8 @@ body {
     color: var(--color1);
 }
 
-.circle__text {
+.circle__text,
+.mobile__text {
     font-size: 0.94rem;
     line-height: 1.31rem;
     color: var(--color2);
@@ -155,8 +155,8 @@ body {
 }
 
 .wrapper-mobile {
-    width: 320px;
-    height: 280px;
+    max-width: 320px;
+    max-height: 280px;
     position: relative;
 }
 
@@ -202,13 +202,13 @@ body {
 }
 
 .wrapper-black {
-    height: 502px;
+    max-height: 502px;
 }
 
 .image__car {
     display: block;
-    width: 759px;
-    height: 480px;
+    width: 845px;
+    height: 500px;
     margin: 0 auto;
     margin-top: 40px;
 }
@@ -217,14 +217,14 @@ body {
     display: block;
     margin: 0 auto;
     font-size: 1.06rem;
-    width: 570px;
+    max-width: 570px;
 }
 
 .grid-conditions {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 345px 340px;
-    grid-column-gap: 40px;
+    grid-template-rows: 345px 210px;
+    grid-column-gap: 10px;
     grid-row-gap: 70px;
     margin-top: 50px;
 }
@@ -244,11 +244,11 @@ body {
 }
 
 .conditions-text_conditions {
-    width: 480px;
+    max-width: 480px;
 }
 
 .conditions-text_requirements {
-    width: 490px;
+    max-width: 490px;
 }
 
 
@@ -266,44 +266,69 @@ body {
 
 
 @media screen and (max-width: 769px) {
+    .container {
+        max-width: 650px;
+    }
+    .logo {
+        max-height: 50px;
+        padding-top: 10px;
+    }
+
     .logo__img {
-        width: 200px;
+        max-width: 150px;
     }
 
-    .logo_number {
-        font-size: 1.06em;
-    }
-
-    .logo__button {
-        height: 34px;
-        width: 141px;
-        font-size: 0.75em;
-    }
-
-    .work {
-        padding: 80px 0 0px 0;
-        height: 560px;
-    }
-
-    .work__heading {
-        font-size: 3rem;
-    }
-
-    .work__subheading {
-        font-size: 1.9rem;
-    }
-
-    .work__text {
+    .logo__number {
         font-size: 1rem;
     }
 
+    .logo__button {
+        height: 32px;
+        width: 125px;
+        font-size: 0.7rem;
+    }
+
+    .work {
+        max-height: 470px;
+    }
+
+    .work__heading {
+        font-size: 2.3rem;
+    }
+
+    .work__subheading {
+        font-size: 1.3rem;
+    }
+
+    .work__text {
+        font-size: 0.7rem;
+        max-width: 585px;
+        margin: 15px auto;
+    }
+
     .work__button {
-        margin: 80px auto 0;
+        margin: 50px auto 0;
+        height: 55px;
+        width: 225px;
+    }
+
+    .heading {
+        font-size: 1.9rem;
+    }
+
+    .circle__title {
+        font-size: 0.9rem;
+    }
+
+    .circle__text,
+    .mobile__text {
+        font-size: 0.7rem;
     }
 
     .elements {
         grid-column-gap: 0px;
         grid-row-gap: 0px;
+        grid-template-columns: 54% 46%;
         grid-template-rows: 290px 290px 290px 290px;
         padding: 50px 20px 0 20px;
     }
@@ -315,31 +340,81 @@ body {
     }
 
     .wrapper-circle_text {
-        width: 320px;
+        max-width: 280px;
         margin: 0 auto;
     }
 
     .grid-mobile {
         display: grid;
-        grid-template-columns: 320px 320px;
-        grid-template-rows: 280px 280px 280px;
-        grid-column-gap: 55px;
-        grid-row-gap: 20px;
+        grid-template-columns: 290px 290px;
+        grid-template-rows: 254px 254px 254px;
+        grid-column-gap: 35px;
+        grid-row-gap: 25px;
         margin-top: 40px;
-        padding-left: 23px;
-        padding-right: 23px;
+        padding: 0;
+    }
+
+    .wrapper-mobile {
+        max-width: 290px;
+        max-height: 250px;
+    }
+
+    .wrapper-mobile__title {
+        width: 250px;
+        position: absolute;
+        left: 8%;
+        font-size: 1.1rem;
     }
 
     .choice {
-        height: 850px;
+        max-height: 670px;
+    }
+
+    .image__car {
+        display: block;
+        width: 450px;
+        height: 245px;
     }
 
 
+    .grid-conditions {
+        grid-template-columns: 50% 45%;
+        grid-template-rows: 345px 200px;
+        grid-column-gap: 35px;
+        grid-row-gap: 30px;
+        margin: 50px auto 0;
+        padding-right: 0;
+        padding-left: 20px;
+    }
+
+    .conditions-heading {
+        font-size: 1.2rem;
+    }
+        .conditions-text_conditions,
+        .conditions-text_requirements,
+        .grid-conditions__text {
+            font-size: 0.89rem;
+        }
+
+        .conditions-text {
+            font-size: 0.89rem;
+        }
+
 }
 
+
+
 @media screen and (max-width: 576px) {
+    .container {
+        max-width: 390px;
+    }
+
+    .logo {
+        padding-top: 0;
+    }
+
     .logo__img {
-        width: 130px;
+        max-width: 130px;
     }
 
     .wrapper__logo {
@@ -350,42 +425,41 @@ body {
 
     .wrapper__logo_paragraph {
         text-align: center;
-    }
-
-    .logo_number {
-        font-size: 0.75em;
+        width: 150px;
     }
 
     .logo__button {
         height: 22px;
         width: 110px;
-        font-size: 0.63em;
+        font-size: 0.63rem;
     }
 
     .work {
-        padding: 60px 0 0 0;
-        height: 395px;
+        max-height: 395px;
     }
 
     .work__heading {
         font-size: 2.1rem;
+        width: 330px;
+        margin: 45px auto;
     }
 
     .work__subheading {
         display: block;
-        font-size: 1.4rem;
+        font-size: 1.25rem;
         margin: 30px auto 0;
-        width: 305px;
+        max-width: 305px;
     }
 
     .work__button {
-        width: 210px;
+        width: 198px;
         height: 50px;
-        margin: 80px auto 0;
+        margin: 60px auto 0;
         font-size: 1rem;
     }
     .elements {
         display: block;
+        padding: 20px 0px 0 0px;
     }
 
     .circle__element {
@@ -394,10 +468,29 @@ body {
         margin: 20px auto;
     }
 
+    .wrapper-circle_text {
+        max-width: 342px;
+    }
+
+    .circle__title {
+        font-size: 1rem;
+    }
+
+    .circle__text {
+        font-size: 0.94rem;
+    }
+
     .heading {
         margin-top: 25px;
         margin-bottom: 10px;
         font-size: 1rem;
+    }
+
+    .mobile__text {
+        display: block;
+        margin: 0 auto;
+        font-size: 0.88rem;
+        width: 300px;
     }
 
     .grid-mobile {
@@ -433,7 +526,11 @@ body {
     .choice__text {
         color: #ffffff !important;
         margin-top: 20px;
-        width: 303px;
+        max-width: 303px;
+    }
+
+    .grid-conditions {
+        display: block;
     }
 
 }

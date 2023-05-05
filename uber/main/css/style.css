@@ -527,7 +527,7 @@ body {
 
 @media screen and (max-width: 576px) {
     .container {
-        max-width: 390px;
+        max-width: 360px;
     }
 
     .logo {
@@ -682,6 +682,25 @@ body {
     .item__heading {
         font-size: 0.88rem;
         margin-top: 30px;
+    }
+
+    .network {
+        left: 33%;
+    }
+
+    .footer-text__item {
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .item__info {
+        font-size: 0.7rem;
+        margin-top: 10px;
+    }
+
+    .item__info_one {
+        width: 190px;
     }
 
 }

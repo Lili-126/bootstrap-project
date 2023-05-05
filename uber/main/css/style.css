@@ -273,7 +273,7 @@ body {
 }
 
 .footer-container {
-    min-width: 1920px;
+    max-width: 1920px;
     height: 232px;
     padding: 15px 0 50px;
 }
@@ -310,18 +310,18 @@ body {
 }
 
 .item__heading {
-    font-size: 15px;
+    font-size: 0.95rem;
     color: var(--color2);
 }
 
 .item__info {
-    font-size: 11px;
+    font-size: 0.7rem;
     color: #999999;
 }
 
 .footer-text__item_blue {
     width: 80px;
-    font-size: 11px;
+    font-size: 0.7rem;
     margin: 30px auto 0;
     color: var(--color1);
 }
@@ -477,13 +477,57 @@ body {
             left: 38%;
         }
 
+        .footer-container {
+            height: 300px;
+            padding: 15px 0 20px;
+        }
+
+        .wrapper-footer {
+            position: relative;
+        }
+
+        .network {
+            position: absolute;
+            bottom: 25%;
+            left: 40%;
+        }
+
+        .footer-text {
+            width: 330px;
+           margin: auto;
+        }
+
+        .footer-text__item {
+            width: 330px;
+        }
+
+        .item__heading {
+            font-size: 0.85rem;
+        }
+
+        .item__info {
+            font-size: 0.6rem;
+        }
+
+        .footer-text__item_blue {
+            width: 50px;
+            font-size: 0.6rem;
+            margin-top: 20px;
+        }
+
+        .shop {
+            margin: auto;
+            margin-top: 100px;
+            width: 300px;
+        }
+
 }
 
 
 
 @media screen and (max-width: 576px) {
     .container {
-        max-width: 390px;
+        max-width: 360px;
     }
 
     .logo {
@@ -627,6 +671,36 @@ body {
 
     .world__text {
         left: 24%;
+    }
+
+    .footer__line {
+        width: 255px;
+        height: 6px;
+        margin-top: 15px;
+    }
+
+    .item__heading {
+        font-size: 0.88rem;
+        margin-top: 30px;
+    }
+
+    .network {
+        left: 33%;
+    }
+
+    .footer-text__item {
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .item__info {
+        font-size: 0.7rem;
+        margin-top: 10px;
+    }
+
+    .item__info_one {
+        width: 190px;
     }
 
 }

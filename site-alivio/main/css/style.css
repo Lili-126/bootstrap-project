@@ -3,6 +3,7 @@
     --color2:  #ffffff;
     --color48:  #484848;
     --color42:  #424242;
+    --bg: #245852;
 }
 
 .row {
@@ -81,7 +82,7 @@ body {
 }
 
 .container-steps {
-    max-width: 1437px;
+    max-width: 1413px;
 }
 
 .steps__item {
@@ -92,11 +93,15 @@ body {
     color: var(--color42);
 }
 
+.stores__heading,
 .heading {
     max-width: 576px;
-    padding-top: 10px;
     font-family: Georgia;
     font-size: 3.15rem;
+}
+
+.heading {
+    padding-top: 10px;
     color: var(--color1);
 }
 
@@ -153,6 +158,47 @@ body {
     margin-top: 60px;
     border-radius: 15px;
 }
+
+.stores {
+    height: 922px;
+    margin-top: 51px;
+    background: var(--bg);
+}
+
+.container__stores {
+    max-width: 1506px;
+    margin: auto;
+}
+
+.stores__heading {
+    padding-top: 310px;
+    color: var(--color2);
+}
+
+.stores__text {
+    margin-top: 33px;
+    margin-bottom: 57px;
+    font-family: Lato;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 39px;
+    color: var(--color2);
+}
+
+.embed-video {
+    width: 896px;
+    height: 516px;
+    margin-top: 229px;
+    margin-left: 61px;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+}
+
+
+
 
 
 

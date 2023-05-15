@@ -57,8 +57,8 @@ body {
 }
 
 .btn__header {
-    width: 61%;
-    height: 51px;
+    width: 120px;
+    height: 40px;
 }
 
 .subsection {
@@ -70,7 +70,7 @@ body {
 }
 
 .subsection__heading {
-    width: 35%;
+    width: 42%;
     margin-bottom: 2.2%;
     font-family: Georgia;
     font-size: 4.06rem;
@@ -78,15 +78,16 @@ body {
 }
 
 .subsection__text {
-    width: 35%;
+    width: 37%;
     margin-bottom: 3.73%;
     color: var(--color48);
 }
 
 .button_all,
+.button_stores,
 .product__button {
-    width: 16.6%;
-    height: 65px;
+    width: 150px;
+    height: 55px;
 }
 
 .container__steps {
@@ -105,9 +106,9 @@ body {
 .product__heading,
 .stores__heading,
 .heading {
-    width: 41%;
+    width: 45%;
     font-family: Georgia;
-    font-size: 3.15rem;
+    font-size: 2.7rem;
 }
 
 .product__heading,
@@ -118,11 +119,11 @@ body {
 
 .steps__text,
 .product__text {
-    width: 45%;
+    width: 38%;
     font-weight: 500;
     line-height: 30px;
     color: var(--color42);
-    font-size: 1.25rem;
+    font-size: 1.1rem;
 }
 
 .wrapper-step_one,
@@ -149,16 +150,16 @@ body {
 }
 
 .check-step__img {
-    width: 55%;
+    width: 50%;
 }
 
 .check-step__title {
     font-family: Georgia;
-    font-size: 1.9rem;
+    font-size: 1.4rem;
     line-height: 45px;
     color: #000;
-    bottom: 20%;
-    left: 19%;
+    bottom: 17%;
+    left: 17%;
 }
 
 .title-alivio {
@@ -167,7 +168,7 @@ body {
 }
 
 .check-step__text {
-    width: 382px;
+    font-size: 1.1rem;
     color: var(--color42);
 }
 
@@ -178,7 +179,7 @@ body {
 }
 
 .stores {
-    height: 922px;
+    height: 750px;
     margin-top: 7%;
     background: var(--bg);
 }
@@ -194,7 +195,7 @@ body {
 }
 
 .subwrapper__stores {
-    width: 37%;
+    width: 40%;
 }
 
 .stores__heading {
@@ -206,25 +207,20 @@ body {
     margin-top: 33px;
     margin-bottom: 57px;
     font-family: Lato;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 39px;
     color: var(--color2);
 }
 
-.button_stores {
-    width: 43%;
-    height: 65px;
-}
-
 .embed-video {
-    width: 59.5%;
-    height: 56%;
+    width: 50%;
+    height: 55%;
 }
 
 .video {
     width: 100%;
-    height: 100%;
+    height: 90%;
     border-radius: 1rem;
 }
 
@@ -336,14 +332,13 @@ body {
 }
 
 .product__button {
-    width: 38.5%;
     margin-top: 40px;
 }
 
 
 
 
-@media (max-width: 1440px) {
+@media (max-width: 1481px) {
     .containers,
     .container__steps,
     .container__stores,

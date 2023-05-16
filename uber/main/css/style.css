@@ -473,9 +473,18 @@ body {
             font-size: 0.89rem;
         }
 
+        .world {
+            height: 650px;
+            margin-top: 80px;
+        }
+
+        .world__text {
+            margin-top: 370px;
+        }
+
         .footer-container {
-            height: 300px;
-            padding: 15px 0 20px;
+            height: 340px;
+            padding: 30px 0 20px;
         }
 
         .wrapper-footer {
@@ -675,10 +684,6 @@ body {
 
     .world__text {
         margin-top: 140px;
-    }
-
-    .footer-container {
-        height: 340px;
     }
 
     .footer__line {

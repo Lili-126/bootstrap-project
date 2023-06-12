@@ -1,8 +1,8 @@
 :root {
-    --color1:  #202336;
-    --color2:  #fb8f1d;
-    --color3:  #ffffff;
-    --color4:  #7d7987;
+    --color1: #202336;
+    --color2: #fb8f1d;
+    --color3: #ffffff;
+    --color4: #7d7987;
 }
 
 a {
@@ -22,7 +22,7 @@ body {
     max-width: 1415px;
     padding-left: 109px;
     padding-right: 76px;
- }
+}
 
 .navbar {
     --bs-navbar-padding-y: 0;
@@ -57,7 +57,7 @@ body {
 
 .btn-all:hover,
 .btn-login:hover {
-    background-color:  #BFF0DD ;
+    background-color: #BFF0DD;
     border: none;
     color: var(--color3);
     transition: all 0.2s case;
@@ -243,7 +243,7 @@ body {
     width: 255px;
 }
 
-.heading-stories{
+.heading-stories {
     font-family: Inter;
     font-size: 19px;
     font-weight: 700;
@@ -255,7 +255,7 @@ body {
     font-family: Inter;
     font-size: 15px;
     font-weight: 400;
-    color:var(--color4);
+    color: var(--color4);
 }
 
 .text-stories_orange {
@@ -305,22 +305,19 @@ body {
 }
 
 .btn-modal {
-  max-width: 290px;
+    max-width: 290px;
 }
-
-
-
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
 
-        .container-header {
-            padding: 0 60px;
+    .container-header {
+        padding: 0 60px;
     }
 
-        .btn-login,
-        .btn-all {
-            padding: 4px 15px;
-            margin-top: 5px;
+    .btn-login,
+    .btn-all {
+        padding: 4px 15px;
+        margin-top: 5px;
     }
 
     .container-all {
@@ -371,7 +368,7 @@ body {
 
     .container-header {
         padding: 0 30px;
-}
+    }
 
     .navbar {
         padding-top: 25px;

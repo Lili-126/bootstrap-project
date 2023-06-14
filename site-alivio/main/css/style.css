@@ -538,31 +538,33 @@ body {
         margin-bottom: 10%;
     }
 
-    /* .steps__item,
+    .steps__item,
     .product__item {
-        width: 242px;
-        margin-left: 30px;
-        margin-top: 120px;
-        font-size: 1.4rem;
-    } */
+        width: 20%;
+        font-size: 1rem;
+    }
 
-   /*  .heading {
-        margin: 0 auto;
-    } */
+   .heading {
+        width: 50%;
+        font-size: 1.30rem;
+    }
 
-   /*  .wrapper-step_two {
-        padding-left: 50%;
-    } */
+    .steps__text, .product__text {
+        width: 45%;
+        font-size: 0.75rem;
+        line-height: 20px;
+    }
 
-    /* .wrapper-step_two,
-    .wrapper-step_three {
-        margin-top: 90px;
-    } */
+    .check-step__title {
+        font-size: 1rem;
+        line-height: 20px;
+        bottom: 25%;
+        left: 7%;
+    }
 
-    /* .check-step__title {
-        bottom: 35px;
-        left: 50px;
-    } */
+    .check-step__text {
+        font-size: 0.75rem;
+    }
 
     /* .title-alivio {
         bottom: 47px;
@@ -651,6 +653,10 @@ body {
         width: 410px;
     }
 
+    .wrapper__button {
+        width: 50%;
+    }
+
     .subsection__heading {
         width: 72%;
         font-size: 2.5rem;
@@ -662,62 +668,32 @@ body {
         font-size: 0.8rem;
     }
 
-  /*   .steps__item,
+    .steps__item,
     .product__item {
-        width: 150px;
-        margin-left: 0px;
-        margin-top: 80px;
-        font-size: 1rem;
-    } */
+        width: 30%;
+        font-size: 0.75rem;
+    }
 
-  /*   .heading,
-    .product__heading {
-        width: 351px;
-        font-size: 1.9rem;
-        text-align: start;
-        margin: 0;
-        padding-top: 0;
-    } */
+   .heading {
+        width: 70%;
+        font-size: 1.30rem;
+    }
 
-  /*   .check-step {
-        width: 180px;
-        height: 120px;
-    } */
+    .steps__text, .product__text {
+       display: none;
+    }
 
-   /*  .wrapper-step_two {
-        padding-left: 43%;
-    } */
+    .check-step__img {
+        width: 40%;
+    }
 
- /*    .wrapper-step_two,
-    .wrapper-step_three {
-        margin-top: 70px;
-    } */
+    .check-step__text {
+        font-size: 0.60rem;
+    }
 
- /*    .check-step__img {
-        width: 100px;
-    } */
-
- /*    .check-step__title {
-        font-size: 1rem;
-        line-height: 0;
-        bottom: 34px;
-        left: 13px;
-    } */
-
-  /*   .title-alivio {
-        bottom: 25%;
-        left: 36%;
-    } */
-
- /*    .check-step__text {
-        font-size: 0.8rem;
-        width: 210px;
-    } */
-
- /*    .container__images {
-        width: 210px;
-        margin-top: 30px;
-    } */
+    .check-step__title {
+        display: none;
+    }
 
    /*  .stores {
         height: 800px;
@@ -774,7 +750,7 @@ body {
     .wrapper__button {
         width: 80%;
     }
-    
+
     .subsection__heading {
         width: 72%;
         font-size: 1.75rem;
@@ -793,60 +769,69 @@ body {
         font-size: 0.8rem;
     }
 
-    /* .steps__item,
+    .steps__item,
     .product__item {
+        width: 40%;
         margin-top: 65px;
-        font-size: 0.7rem;
-    } */
+        font-size: 0.6rem;
+    }
 
-   /*  .heading,
+    .heading,
     .stores__heading,
     .product__heading {
         width: 265px;
         font-size: 1.4rem;
-    } */
+    }
 
-   /*  .wrapper-step_one {
+    .steps__text, .product__text {
+        display: none;
+    }
+
+    .steps__container {
+        display: block !important;
+    }
+
+    .wrapper-step_one {
         margin-top: 25px;
     }
- */
-   /*  .wrapper-step_two {
-        padding-left: 38%;
-    } */
 
-   /*  .wrapper-step_three,
+    .wrapper-step_two {
+        padding-left: 35%;
+    }
+
+    .wrapper-step_three,
     .wrapper-step_two {
         margin-top: 60px;
-    } */
+    }
 
-   /*  .check-step {
+    .check-step {
         width: 157px;
         height: 80px;
-    } */
+    }
 
-   /*  .check-step__img {
+    .check-step__img {
         width: 70px;
-    } */
+    }
 
-   /*  .check-step__title {
-        font-size: 0.7rem;
-        bottom: 26px;
+    .check-step__title {
+        font-size: 0.75rem;
+        bottom: 0;
         left: 20px;
-    } */
+    }
 
-   /*  .title-alivio {
-        bottom: 30px;
+    .title-alivio {
+        bottom: 0;
         left: 20px;
-    } */
+    }
 
-   /*  .check-step__text {
-        font-size: 0.6rem;
-    } */
+    .check-step__text {
+        font-size: 0.75rem;
+    }
 
-   /*  .check-step__text,
+    .check-step__text,
     .container__images {
         width: 180px;
-    } */
+    }
 
    /*  .stores {
         height: 545px;

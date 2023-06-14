@@ -518,11 +518,6 @@ body {
         font-size: 1.1rem;
     }
 
-    /* .wrapper__nav-link {
-        padding-left: 41px;
-        padding-top: 20px;
-    } */
-
     .containers,
     .container__steps,
     .container__stores,
@@ -534,22 +529,14 @@ body {
         width: 40%;
     }
 
-    /* .wrapper__nav {
-        height: 65px;
-        padding: 15px 0 0;
-    } */
+    .subsection__heading {
+        width: 72%;
+    }
 
-    /* .btn__header {
-        width: 90px;
-        height: 40px;
-        margin-left: 0px;
-    } */
-
-    /* .subsection {
-        height: 550px;
-        padding-top: 100px;
-        padding-bottom: 70px;
-    } */
+    .subsection__text {
+        width: 57%;
+        margin-bottom: 10%;
+    }
 
     /* .steps__item,
     .product__item {
@@ -664,42 +651,16 @@ body {
         width: 410px;
     }
 
-   /*  .wrapper__nav {
-        height: 45px;
-        padding: 0;
-    } */
-
-    /* .logo {
-        width: 70px;
-    } */
-
-   /*  .navbar-toggler:focus {
-         box-shadow: none;
-    } */
-
-   /*  .navbar-collapse {
-        text-align: end;
+    .subsection__heading {
+        width: 72%;
+        font-size: 2.5rem;
     }
- */
-  /*   .subsection {
-        height: 280px;
-        padding-top: 155px;
-        padding-bottom: 0px;
-    } */
 
-  /*   .subsection__heading {
-        display: none;
+    .subsection__text {
+        width: 70%;
+        margin-bottom: 10%;
+        font-size: 0.8rem;
     }
- */
-   /*  .subsection__text {
-        display: none;
-    } */
-
-   /*  .button_all,
-    .product__button {
-        width: 170px;
-        height: 45px;
-    } */
 
   /*   .steps__item,
     .product__item {
@@ -813,53 +774,24 @@ body {
     .wrapper__button {
         width: 80%;
     }
+    
+    .subsection__heading {
+        width: 72%;
+        font-size: 1.75rem;
+    }
 
-   /*  .wrapper__nav {
-        height: 45px;
-    } */
+    .subsection__text {
+        width: 70%;
+        margin-bottom: 10%;
+        font-size: 0.55rem;
+    }
 
-    /* .logo {
-        width: 45px;
-    } */
-
-   /*  .navbar-toggler:focus {
-        text-decoration: none;
-        outline: 0;
-        box-shadow: none;
-        } */
-
-   /*  .navbar-toggler-icon {
-        width: 30px;
-    } */
-
-    /* .wrapper__navbar {
-        margin-left: 80px;
-    } */
-
-    /* .wrapper__nav-link {
-        padding-left: 41px;
-        padding-top: 20px;
-    } */
-
-   /*  .btn__header {
-        width: 85px;
-        height: 35px;
-        margin-left: 0px;
-        font-size: 0.8rem;
-    } */
-
-   /*  .subsection {
-        height: 230px;
-        padding-top: 160px;
-        font-size: 0.8rem;
-    } */
-
-   /*  .button_all,
+    .button_all,
     .product__button {
         width: 135px;
         height: 40px;
         font-size: 0.8rem;
-    } */
+    }
 
     /* .steps__item,
     .product__item {

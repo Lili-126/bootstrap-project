@@ -566,35 +566,26 @@ body {
         font-size: 0.75rem;
     }
 
-    /* .title-alivio {
-        bottom: 47px;
-        left: 62px;
-    } */
+    .subwrapper {
+        padding-top: 100px;
+        width: 80%;
+    }
 
-    /* .stores {
-        height: 950px;
-    } */
+    .button_stores {
+        margin-top: 100px;
+    }
 
-    /* .stores__heading {
-        margin: 0 auto;
-    } */
+    .embed-video {
+        position: relative;
+    }
 
-    /* .stores__text {
-        font-size: 1.3rem;
-        display: block;
-        width: 510px;
-        margin: 33px auto 57px;
-    } */
-
-    /* .button_stores {
-        display: block;
-        margin: 0 auto;
-    } */
-
-    /* .embed-video {
-        width: 600px;
-        margin: 90px auto 0;
-    } */
+    .video {
+        position: absolute;
+        width: 130%;
+        height: 65%;
+        left: 80%;
+        bottom: 70%;
+    }
 
     /* .diary {
         padding-bottom: 120px;
@@ -674,7 +665,9 @@ body {
         font-size: 0.75rem;
     }
 
-   .heading {
+    .product__heading,
+    .stores__heading,
+    .heading {
         width: 70%;
         font-size: 1.30rem;
     }
@@ -695,19 +688,29 @@ body {
         display: none;
     }
 
-   /*  .stores {
-        height: 800px;
+    .stores {
+        height: 650px;
+        margin-top: 17%;
     }
- */
- /*    .stores__heading {
-        width: 378px;
-        padding-top: 60px;
-        font-size: 2.1rem;
-    } */
 
-  /*   .stores__text {
-        width: 420px;
-    } */
+    .subwrapper {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .stores__text {
+        font-size: 0.75rem;
+    }
+
+    .embed-video {
+        width: 100%;
+    }
+
+    .video {
+        width: 90%;
+        height: 60%;
+        margin-top: 60px;
+    }
 
   /*   .embed-video {
         width: 365px;
@@ -735,7 +738,7 @@ body {
 
 }
 
-@media screen and (min-width: 300px) and (max-width: 490px) {
+@media screen and (min-width: 300px) and  (max-width: 490px) {
     body {
         font-size: 0.8rem;
     }
@@ -832,6 +835,40 @@ body {
     .container__images {
         width: 180px;
     }
+
+    .stores {
+        height: 500px;
+    }
+
+    .subwrapper {
+        width: 100%;
+        padding-top: 40px;
+    }
+
+    .stores__text {
+        font-size: 0.70rem;
+    }
+
+    .stores__text {
+        margin-bottom: 35px;
+    }
+
+    .button_stores {
+        width: 135px;
+        height: 45px;
+        font-size: 0.8rem;
+    }
+
+    .embed-video {
+        width: 100%;
+        padding-top: 40px;
+    }
+
+    .video {
+        width: 100%;
+        height: 75%;
+    }
+
 
    /*  .stores {
         height: 545px;

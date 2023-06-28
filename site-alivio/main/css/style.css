@@ -959,4 +959,54 @@ body {
         height: 45px;
         font-size: 0.85rem;
     }
+
+    .wrapper__footer {
+        height: 215px;
+        padding: 20px 0;
+        background-color: var(--color2);
+    }
+
+    .block__footer {
+        display: block !important;
+    }
+
+    .heading__footer {
+        font-size: 1.75rem;
+        color: var(--bg);
+    }
+
+    .link {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .link__image {
+        background-color: var(--bg);
+        width: 40px;
+        height: 30px;
+        border: none;
+        border-radius: 6px;
+        margin-right: 10px;
+    }
+
+    .link__network {
+        width: 20px;
+    }
+
+    .link__network_facebook {
+        width: 10px;
+    }
+
+    .block__p {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 30px;
+    }
+
+    .mobile__image {
+        margin-left: 0;
+        width: 85px;
+        height: 35px;
+        border-radius: 0px;
+    }
 }

@@ -235,10 +235,13 @@ body {
 .conditions-heading {
     font-size: 1.38rem;
     color: var(--color1);
+    margin: 0;
+    padding-bottom: 1rem;
 }
 
 .conditions-heading_red {
     color: var(--color4);
+    padding-top: 2rem;
 }
 
 .conditions-text {
@@ -252,6 +255,32 @@ body {
 
 .conditions-text_requirements {
     max-width: 490px;
+}
+
+.icon_blue {
+    padding-bottom: 10px;
+    padding-left: 20px;
+    &::before {
+        content: "";
+        display: block;
+        width: 23px;
+        height: 20px;
+        padding-right: 30px;
+        background: url("../assets/icons/check_blue.png") no-repeat;
+    }
+}
+
+.icon_red {
+    padding-bottom: 10px;
+    padding-left: 20px;
+    &::before {
+        content: "";
+        display: block;
+        width: 23px;
+        height: 20px;
+        padding-right: 30px;
+        background: url("../assets/icons/check_red.png") no-repeat;
+    }
 }
 
 .world {

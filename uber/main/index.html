@@ -27,11 +27,11 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav d-flex justify-content-between">
                         <a class="nav-link fw-light text-white" href="#">Главная</a>
-                        <a class="nav-link fw-light text-white" aria-current="page" href="#">Со своим автомобилем</a>
-                        <a class="nav-link fw-light text-white" href="#">На автомобиле компании</a>
-                        <a class="nav-link fw-light text-white" href="#">Требования</a>
-                        <a class="nav-link fw-light text-white" href="#">Контакты</a>
-                        <a class="nav-link fw-light text-white" href="#">Оставить заявку</a>
+                        <a class="nav-link fw-light text-white" aria-current="page" href="#myAuto">Со своим автомобилем</a>
+                        <a class="nav-link fw-light text-white" href="#partnet">На автомобиле компании</a>
+                        <a class="nav-link fw-light text-white" href="#requir">Требования</a>
+                        <a class="nav-link fw-light text-white" href="#contacts">Контакты</a>
+                        <a class="nav-link fw-light text-white" href="#submit">Оставить заявку</a>
                     </div>
                 </div>
             </div>
@@ -52,7 +52,8 @@
                             <p class="logo__text d-none d-lg-block mb-0 fw-light text-white">Звоните нам ежедневно</p>
                             <p class="logo__number text-white mb-0">8 495 797 09 88</p>
                         </div>
-                        <button class="logo__button border-0 rounded text-white text-center">ЗАКАЗАТЬ ЗВОНОК</button>
+                        <button class="logo__button rounded text-center" data-bs-toggle="modal"
+                        data-bs-target="#loginModal">ЗАКАЗАТЬ ЗВОНОК</button>
                     </div>
                 </div>
             </div>
@@ -73,7 +74,8 @@
                     Мы одни из партнеров и зарекомендовали себя как одна из лучших команд в городе Москве.
                     Водители у нас зарабатывают от 80000- 120000 в месяц.
                 </p>
-                <button class="work__button text-white">ОТПРАВИТЬ ЗАЯВКУ!</button>
+                <button class="work__button" id="submit" data-bs-toggle="modal"
+                data-bs-target="#application">ОТПРАВИТЬ ЗАЯВКУ!</button>
             </div>
         </div>
     </section>
@@ -214,7 +216,6 @@
                             <img class="wrapper-mobile__image img-fluid" src="../main/assets/images/card_one.png"
                                 alt="fon">
                             <div class="wrapper-mobile__icon">
-                                <img class="icon_plus" src="../main/assets/icons/plus .png" alt="plus">
                             </div>
                         </div>
                         <div class="wrapper-mobile">
@@ -222,7 +223,6 @@
                             <img class="wrapper-mobile__image img-fluid" src="../main/assets/images/card_two.png"
                                 alt="fon">
                             <div class="wrapper-mobile__icon">
-                                <img class="icon_plus" src="../main/assets/icons/plus .png" alt="plus">
                             </div>
                         </div>
                         <div class="wrapper-mobile">
@@ -230,7 +230,6 @@
                             <img class="wrapper-mobile__image img-fluid" src="../main/assets/images/card_three.png"
                                 alt="fon">
                             <div class="wrapper-mobile__icon">
-                                <img class="icon_plus" src="../main/assets/icons/plus .png" alt="plus">
                             </div>
                         </div>
                         <div class="wrapper-mobile">
@@ -238,7 +237,6 @@
                             <img class="wrapper-mobile__image img-fluid" src="../main/assets/images/card_four.png"
                                 alt="fon">
                             <div class="wrapper-mobile__icon">
-                                <img class="icon_plus" src="../main/assets/icons/plus .png" alt="plus">
                             </div>
                         </div>
                         <div class="wrapper-mobile">
@@ -246,7 +244,6 @@
                             <img class="wrapper-mobile__image img-fluid" src="../main/assets/images/card_five.png"
                                 alt="fon">
                             <div class="wrapper-mobile__icon">
-                                <img class="icon_plus" src="../main/assets/icons/plus .png" alt="plus">
                             </div>
                         </div>
                         <div class="wrapper-mobile">
@@ -254,7 +251,6 @@
                             <img class="wrapper-mobile__image img-fluid" src="../main/assets/images/card_six.png"
                                 alt="fon">
                             <div class="wrapper-mobile__icon">
-                                <img class="icon_plus" src="../main/assets/icons/plus .png" alt="plus">
                             </div>
                         </div>
                     </div>
@@ -283,7 +279,7 @@
                 <h2 class="heading mb-md-0 text-black text-uppercase text-center fw-bold">условия и требования</h2>
                 <div class="grid-conditions">
                     <div>
-                        <p class="conditions-heading">УСЛОВИЯ: со своим авто:</p>
+                        <p class="conditions-heading" id="myAuto">УСЛОВИЯ: со своим авто:</p>
                         <div class="d-flex align-items-start icon_blue">
                             <p class="grid-conditions__text mb-0 fw-light">Подключаем к системе UBER под 10%.</p>
                         </div>
@@ -314,7 +310,7 @@
                         <p class="conditions-text mt-3">В день заработок составляет 7000-12000р + бонус 3000т рублей</p>
                     </div>
                     <div>
-                        <p class="conditions-heading">УСЛОВИЯ: на авто компании:</p>
+                        <p class="conditions-heading" id="partnet">УСЛОВИЯ: на авто компании:</p>
                         <div class="d-flex align-items-start icon_blue">
                             <p class="conditions-text_conditions mb-0 fw-light">Предоставляем авто без залога</p>
                         </div>
@@ -327,7 +323,7 @@
                         </div>
                     </div>
                     <div>
-                        <p class="conditions-heading conditions-heading_red">ТРЕБОВАНИЯ:</p>
+                        <p class="conditions-heading conditions-heading_red" id="requir">ТРЕБОВАНИЯ:</p>
                         <div class="d-flex align-items-start icon_red">
                             <p class="conditions-text_requirements mb-0 fw-light">Наличие автомобиля без рекламы
                             </p>
@@ -390,7 +386,7 @@
             <div class="row">
                 <div class="footer__line"></div>
                 <div class="wrapper-footer d-lg-flex align-items-center justify-content-around pt-md-5 px-0">
-                    <div class="network d-flex align-items-center justify-content-between">
+                    <div class="network d-flex align-items-center justify-content-between" id="contacts">
                         <div class="network__item bg-black d-flex align-items-center justify-content-center">
                             <a href="https://www.facebook.com/" target="_blank">
                                 <img class="item__image" src="../main/assets/icons/facebook.png" alt="facebook">
@@ -441,6 +437,97 @@
     </footer>
 
     <script src="../main/js/bootstrap.bundle.min.js"></script>
+    <script src="../main/js/main.js"></script>
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title text-center" id="exampleModalLabel"><strong>Контактные данные</strong></h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="row g-3 needs-validation" novalidate>
+                        <div class="col-md-6">
+                          <label for="validationCustom01" class="form-label">Имя</label>
+                          <input type="text" class="form-control" id="validationCustom01" value="" required>
+                        </div>
+                        <div class="col-md-6">
+                          <label for="validationCustom02" class="form-label">Фамилия</label>
+                          <input type="text" class="form-control" id="validationCustom02" value="" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="validationCustom05" class="form-label">Телефон</label>
+                            <input type="tel" class="form-control" id="validationCustom05" value="+7" required>
+                          </div>
+                        <div class="col-md-6">
+                          <label for="validationCustom03" class="form-label">Город</label>
+                          <input type="text" class="form-control" id="validationCustom03" required>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                            <label class="form-check-label" for="invalidCheck">
+                                Согласен с условиями
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                            <button type="button" class="logo__button rounded text-center" data-bs-dismiss="modal">ОТПРАВИТЬ</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+       </div>
+    </div>
+    <div class="modal fade" id="application" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title text-center" id="exampleModalLabel"><strong>Оставить заявку</strong></h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="row g-3 needs-validation" novalidate>
+                        <div class="col-md-6">
+                          <label for="validationCustom01" class="form-label">Имя</label>
+                          <input type="text" class="form-control" id="validationCustom01" value="" required>
+                        </div>
+                        <div class="col-md-6">
+                          <label for="validationCustom02" class="form-label">Фамилия</label>
+                          <input type="text" class="form-control" id="validationCustom02" value="" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="validationCustom05" class="form-label">Телефон</label>
+                            <input type="tel" class="form-control" id="validationCustom05" value="+7" required>
+                          </div>
+                          <div class="col-md-6">
+                            <label for="validationCustom05" class="form-label">@email</label>
+                            <input type="email" class="form-control" id="validationCustom05" value="" required>
+                          </div>
+                          <div class="col-md-12">
+                            <label for="validationCustom03" class="form-label">Город</label>
+                            <input type="text" class="form-control" id="validationCustom03" required>
+                          </div>
+                          <div class="col-md-12">
+                            <label for="exampleFormControlTextarea1" class="form-label">Поле для текста</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                        <div class="col-12">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                            <label class="form-check-label" for="invalidCheck">
+                                Согласен с условиями
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                            <button class="logo__button rounded text-center" type="button"  data-bs-dismiss="modal">ОТПРАВИТЬ</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+       </div>
+    </div>
 </body>
 
 </html>

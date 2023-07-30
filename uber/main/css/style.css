@@ -183,14 +183,17 @@ body {
     justify-content: center;
     width: 20px;
     height: 20px;
+    padding-top: 2px;
+    padding-left: 1px;
     border-radius: 50%;
     background-color: #000000;
     color: var(--color1);
 }
 
-.icon_plus {
-    width: 14px;
-    height: 14px;
+.wrapper-mobile__icon::after {
+    content: "+";
+    font-size: 1.2rem;
+    color: var(--color1);
 }
 
 .choice {
